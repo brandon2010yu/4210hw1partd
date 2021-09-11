@@ -31,14 +31,14 @@ with open('contact_lens.csv', 'r') as csvfile:
 Young = 1
 Presbopic = 2
 prepresbyopic =3
-Myope = 4
-Hypermetrope = 5
-No = 6
-Yes = 7
-Reduced = 8
-Normal = 9
+Myope = 1
+Hypermetrope = 2
+No = 1
+Yes = 2
+Reduced = 1
+Normal = 2
 
-X = [[1, 4, 6, 8], [2, 4, 6, 9], [3, 4, 6, 8], [3, 4, 6, 9], [2, 4, 7, 9], [1, 4, 7, 9], [1, 5, 6, 8], [3, 4, 7, 8], [2, 5, 6, 8], [1, 4, 7, 8]]
+X = [[1, 1, 1, 1], [2, 1, 1, 2], [3, 1, 1, 1], [3, 1, 1, 2], [2, 1, 2, 2], [1, 1, 2, 2], [1, 2, 1, 1], [3, 1, 2, 1], [2, 2, 1, 1], [1, 1, 2, 1]]
 
 
 # transform the original training classes to numbers and add to the vector Y. For instance Yes = 1, No = 2,
